@@ -3047,7 +3047,7 @@ instance.prototype.action = function(action) {
 			break;
 
 		case 'shu':
-			cmd = '(SHU ' + pad3(opt.p1) +')';
+			cmd = '(SHU ' + opt.p1 +')';
 			break;
 
 		case 'sin':
